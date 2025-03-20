@@ -154,7 +154,6 @@ a fund established by NLnet with financial support from the European Commission'
 
 <div align="center">
 
-<br />
 <a href="https://www.digitalpublicgoods.net/r/open-food-facts" target="_blank" rel="noopener noreferrer"><img src="https://github.com/DPGAlliance/dpg-resources/blob/main/docs/assets/dpg-badge.png?raw=true" width="100" alt="Digital Public Goods Badge"></a>
 
 </div>

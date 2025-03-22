@@ -33,12 +33,8 @@
       ],
       "amino_acids_tags" : [],
       "brands" : "Test brand",
-      "brands_hierarchy" : [
-         "xx:Test brand"
-      ],
-      "brands_lc" : "xx",
       "brands_tags" : [
-         "xx:test-brand"
+         "test-brand"
       ],
       "categories" : "Changed category",
       "categories_hierarchy" : [

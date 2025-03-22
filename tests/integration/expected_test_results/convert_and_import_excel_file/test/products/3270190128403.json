@@ -45,15 +45,10 @@
    "brand_owner" : "Carrefour",
    "brand_owner_imported" : "Carrefour",
    "brands" : "Carrefour Bio, Carrefour",
-   "brands_hierarchy" : [
-      "xx:carrefour-bio",
-      "xx:Carrefour"
-   ],
    "brands_imported" : "Carrefour Bio, Carrefour",
-   "brands_lc" : "xx",
    "brands_tags" : [
-      "xx:carrefour-bio",
-      "xx:carrefour"
+      "carrefour-bio",
+      "carrefour"
    ],
    "categories" : "Plant-based foods and beverages, Plant-based foods, Legumes and their products, Cereals and potatoes, Fruits and vegetables based foods, Legumes, Seeds, Legume seeds, Vegetables based foods, Pulses, Lentils, Green lentils",
    "categories_hierarchy" : [

@@ -15,13 +15,9 @@
    "allergens_tags" : [],
    "amino_acids_tags" : [],
    "brands" : "Test",
-   "brands_hierarchy" : [
-      "xx:Test"
-   ],
    "brands_imported" : "Test",
-   "brands_lc" : "xx",
    "brands_tags" : [
-      "xx:test"
+      "test"
    ],
    "categories" : "Test category",
    "categories_hierarchy" : [

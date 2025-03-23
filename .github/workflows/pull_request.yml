@@ -54,6 +54,7 @@ jobs:
             docker:
               - 'docker/**'
               - '!docker/README.md'
+          predicate-quantifier: 'every'
 
   docs:
     name: "Warning: documentation modified"

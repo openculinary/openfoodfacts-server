@@ -42,4 +42,3 @@ See also [targets to run tests](../docs/dev/how-to-write-and-run-tests.md#runnin
 `export MSYS_NO_PATHCONV=1
 docker compose run --rm --no-deps -u root backend chown www-data:www-data -R /opt/product-opener/`
 then run again `make lint` and you should be good to go
-

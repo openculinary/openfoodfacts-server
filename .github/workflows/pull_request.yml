@@ -26,6 +26,7 @@ jobs:
       code_changed: ${{ steps.filter.outputs.code }}
       docs_changed: ${{ steps.filter.outputs.docs }}
       only_docs_changed: ${{ steps.filter.outputs.docs == 'true' && steps.filter.outputs.code != 'true' }}
+      docker_changed: ${{ steps.filter.outputs.docker }}
 
     steps:
       - uses: dorny/paths-filter@v2
@@ -50,6 +51,9 @@ jobs:
               - 'tests/**'
             taxonomies:
               - 'taxonomies/**/*'
+            docker:
+              - 'docker/**'
+              - '!docker/README.md'
 
   docs:
     name: "Warning: documentation modified"
@@ -64,5 +68,13 @@ jobs:
     runs-on: ubuntu-latest
     needs: filter
     if: github.event_name == 'pull_request' && needs.filter.outputs.code_changed == 'true'
+    steps:
+      - run: exit 1
+
+  docker:
+    name: "Warning: docker configuration modified"
+    runs-on: ubuntu-latest
+    needs: filter
+    if: github.event_name == 'pull_request' && needs.filter.outputs.docker_changed == 'true'
     steps:
       - run: exit 1

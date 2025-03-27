@@ -25,7 +25,7 @@ jobs:
     outputs:
       code_modified: ${{ steps.filter.outputs.code }}
     steps:
-      - uses: dorny/paths-filter@v2
+      - uses: dorny/paths-filter@v3
         id: filter
         with:
           # FIXME: we need to consider more than these files
@@ -36,6 +36,7 @@ jobs:
             - '**/*'       # Catch everything else
             - '!**/*.md'   # Exclude all Markdown files
             - '!docs/**'   # Exclude docs/ folder
+          predicate-quantifier: 'every'
 
   lint:
     name: 🕵️‍♀️ NPM lint

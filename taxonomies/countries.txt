@@ -5565,7 +5565,7 @@ zh-yue: 博奈爾島
 language_codes:en: nl,pap
 osm_relation:en: 4266671
 
-en: Bosnia and Herzegovina, Bosnia-Herzegovina, Bosnia, Republika Srpska ,BiH, BA, BIH
+en: Bosnia and Herzegovina, Bosnia-Herzegovina, Bosnia, BiH, BA, BIH
 ace: Bosnia Hèrzègovina
 af: Bosnië-Herzegowina
 als: Bosnien und Herzegowina

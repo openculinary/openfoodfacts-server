@@ -188,7 +188,7 @@ $flavor = "opf";
 	android_apk_app_link => "https://github.com/openfoodfacts/smooth-app/releases",
 	android_app_link => "https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&utm_source=opf&utf_medium=web",
 	ios_app_link => "https://apps.apple.com/app/open-food-facts-product-scan/id588797948",
-	#facebook_page_url => "https://www.facebook.com/openbeautyfacts",
+	#facebook_page_url => "https://www.facebook.com/OpenBeautyFacts",
 	#x_account => "OpenBeautyFacts",
 	# favicon HTML and images generated with https://realfavicongenerator.net/ using the SVG icon
 	favicons => <<HTML

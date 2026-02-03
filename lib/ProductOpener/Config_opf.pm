@@ -186,7 +186,7 @@ $flavor = "opf";
 	product_type => "product",
 	og_image_url => "https://static.openproductsfacts.org/images/logos/opf-logo-vertical-white-social-media-preview.png",
 	android_apk_app_link => "https://github.com/openfoodfacts/smooth-app/releases",
-	android_app_link => "https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner",
+	android_app_link => "https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&utm_source=opf&utf_medium=web",
 	ios_app_link => "https://apps.apple.com/app/open-food-facts-product-scan/id588797948",
 	#facebook_page_url => "https://www.facebook.com/openbeautyfacts",
 	#x_account => "OpenBeautyFacts",
